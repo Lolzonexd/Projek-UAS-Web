@@ -1,0 +1,3 @@
+Adapun beberapa rencana dan konsep yang akan diterapkan pada Project UAS ini, yaitu:
+1. Membuat web Online Shop sederhana
+2. Membuat web edu yang berisi kamus seputar IT
