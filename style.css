@@ -1,3 +1,11 @@
 .kotakAtas {
     border: solid black;
 }
+
+.home {
+    font-family: "Cherry Bomb One", system-ui;
+}
+.fotokelas {
+    border-radius: 10%;
+    box-shadow: 0px 0px 20px;
+}
