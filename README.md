@@ -1,3 +1,4 @@
+![Logo CA](/img/CA'24.png)
 Kelompok 1:
 - A. Hanif Nursyabana
 - Al-Hakim
