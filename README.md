@@ -23,3 +23,4 @@ Projek UAS 100% IPK 4.0 aamiin 🙏🙏🙏 <br>
 
 # Maap Diah
 # ini ngapain bang
+# dikick gua jir
