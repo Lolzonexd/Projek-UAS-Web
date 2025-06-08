@@ -208,6 +208,10 @@
                 <a
                   class="linkContact"
                   href="https://www.instagram.com/oneca.studio?igsh=MTlxa3p4bGFwMmU5Ng=="
+                  target="_blank"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  title="Tes Tooltip"
                   >@oneca.studio</a
                 >
               </li>
@@ -215,7 +219,16 @@
                 <i class="bi bi-chat-right-text"></i>
                 <span class="fw-bold">Menfes</span>
                 <br />
-                <a class="linkContact" href="menfes">Send us a Message</a>
+                <a
+                  class="linkContact"
+                  href="menfes"
+                  target="_blank"
+                  data-bs-toggle="popover"
+                  data-bs-trigger="hover"
+                  title="Tes Popover"
+                  data-bs-content="Ini adalah isi dari popover"
+                  >Send us a Message</a
+                >
               </li>
             </ul>
           </div>
@@ -240,5 +253,21 @@
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"
     ></script>
+
+    <!-- SCRIPT TOOLTIP -->
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      tooltipTriggerList.forEach((el) => new bootstrap.Tooltip(el));
+    </script>
+
+    <!-- SCRIPT POPOVER -->
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      );
+      popoverTriggerList.forEach((el) => new bootstrap.Popover(el));
+    </script>
   </body>
 </html>
