@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital&display=swap"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
       rel="stylesheet"
     />
 
@@ -90,15 +90,18 @@
     <br />
 
     <!-- HOME -->
-    <section class="pt-5 container" class="home header" id="home">
+    <section class="pt-5 container home header" id="home">
       <div class="home">
-        <h1 class="text-center">WELCOME TO CA'24 WEBSITE</h1>
-        <p class="lead container pt-3 text-center">
+        <h1 class="text-center">
+          <span class="ungu">WELCOME</span> TO
+          <em class="ungu">CA'24</em> WEBSITE
+        </h1>
+        <p class="ketJudul lead container pt-3 text-center">
           Behold the creation of the great admins that will make you amazed.
           Just sit, relax, and enjoy the creation. Peace ✌️
         </p>
         <br />
-        <h6>designed by:</h6>
+        <h6 class="ketJudul">designed by:</h6>
       </div>
       <div class="container">
         <div class="row text-center d-block d-sm-flex">
@@ -157,9 +160,9 @@
             <!-- BAGIAN PARAGRAF DALAM BOX -->
             <p>
               Hi, there👋🏻! <br />
-              Welcome to the official website of Class CA'24, a group of 20+
-              students majoring in Computer Enginering at State Polytechnic of
-              Sriwijaya.
+              Welcome to the official website of Class
+              <em class="ungu">CA'24</em>, a group of 20+ students majoring in
+              Computer Enginering at State Polytechnic of Sriwijaya.
               <br />
               <br />
               We're a part of the vocation squad—hand-on learners, tech
@@ -169,17 +172,19 @@
               <br />
               <br />
               Keep scrolling and you'll meet the unique mix of people in
-              2CA—some are coding wizards, some are caffeine-fueled warriors,
-              and yes, some are frequent stars of our anonymous menfess 😆.
+              <em class="ungu">2CA</em>—some are coding wizards, some are
+              caffeine-fueled warriors, and yes, some are frequent stars of our
+              anonymous menfess 😆.
               <br />
               <br />
               We're also active on our class Instagram, where we share our daily
               moments, achievements, and the behind-the-scenes of our campus
               life. If you're curious about our “fun side,” the menfess is the
               place—expect confessions, rants, and the kind of subtle shade that
-              gets the whole class buzzing. Because in 2CA, it's not just about
-              assignments and labs—it's also about laughter, little chaos, and
-              the memories we'll carry for a long time.
+              gets the whole class buzzing. Because in
+              <em class="ungu">2CA</em>, it's not just about assignments and
+              labs—it's also about laughter, little chaos, and the memories
+              we'll carry for a long time.
             </p>
           </div>
         </div>
@@ -200,7 +205,7 @@
         <div class="row g-4 align-item-center">
           <div class="col-md">
             <h2>Contact Us</h2>
-            <ul class="list-group list-group-flush" lead>
+            <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <i class="bi bi-instagram"></i>
                 <span class="fw-bold">Instagram</span>
@@ -211,7 +216,7 @@
                   target="_blank"
                   data-bs-toggle="tooltip"
                   data-bs-placement="right"
-                  title="Tes Tooltip"
+                  title="Like And Follow!"
                   >@oneca.studio</a
                 >
               </li>
@@ -223,11 +228,24 @@
                   class="linkContact"
                   href="menfes"
                   target="_blank"
-                  data-bs-toggle="popover"
-                  data-bs-trigger="hover"
-                  title="Tes Popover"
-                  data-bs-content="Ini adalah isi dari popover"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  title="DO IT!"
                   >Send us a Message</a
+                >
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-github"></i>
+                <span class="fw-bold">GitHub</span>
+                <br />
+                <a
+                  href="https://github.com/Lolzonexd/Projek-UAS-Web"
+                  class="linkContact"
+                  target="_blank"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  title="See This Web Source Code!"
+                  >Lolzonexd/Projek-UAS-Web</a
                 >
               </li>
             </ul>
@@ -239,7 +257,9 @@
     <!--BOX FOOTER-->
     <footer class="p-5 bg-dark text-light text-center position-relative">
       <div class="container">
-        <p class="lead">&copy; 2025 - CA'24 Computer Engineering</p>
+        <p class="lead">
+          &copy; 2025 - <em class="ungu">CA'24</em> Computer Engineering
+        </p>
         <br />
         <h6>
           <i>Crafted in the quiet hours of the night by Atmin</i>
@@ -263,11 +283,11 @@
     </script>
 
     <!-- SCRIPT POPOVER -->
-    <script>
+    <!-- <script>
       const popoverTriggerList = document.querySelectorAll(
         '[data-bs-toggle="popover"]'
       );
       popoverTriggerList.forEach((el) => new bootstrap.Popover(el));
-    </script>
+    </script> -->
   </body>
 </html>

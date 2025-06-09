@@ -2,13 +2,19 @@ h1 {
   font-family: "Press Start 2P", system-ui;
 }
 
-h2 {
+h2,
+.ketJudul {
   font-family: "EB Garamond", serif;
 }
 
 .linkContact {
   color: #a392ea;
   text-decoration: none;
+}
+
+.ungu {
+  color: #a392ea;
+  font-style: normal;
 }
 /* Sejahat itu ternyato kau diah 
     ok fine
