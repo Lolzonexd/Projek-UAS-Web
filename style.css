@@ -7,6 +7,10 @@ h2,
   font-family: "EB Garamond", serif;
 }
 
+.fotosekelas {
+  height: 100%;
+  width: auto;
+}
 .linkContact {
   color: #a392ea;
   text-decoration: none;
