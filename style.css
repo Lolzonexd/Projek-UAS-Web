@@ -61,6 +61,19 @@ h2,
 .teksHakim {
   transform: rotate(180deg);
 }
+
+/* ALANGKE SARO STYLING TOOLTIP NI OEE */
+.tooltip.show {
+  opacity: 1 !important;
+}
+.tooltip-inner {
+  color: white;
+  background-color: #21232d;
+}
+.tooltip-arrow::before {
+  border-bottom-color: #21232d !important;
+}
+
 /* Sejahat itu ternyato kau diah 
     ok fine
 
@@ -68,4 +81,9 @@ h2,
 
     BOHONGG
     CONFLICT NIH GAWE KAU
+
+    Theme Color HEX:
+    #21232d
+    #a392ea
+    #282b37
 */
