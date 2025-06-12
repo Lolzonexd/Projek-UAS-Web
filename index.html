@@ -260,7 +260,7 @@
           <div class="card bg-transparent border-0">
             <img
               src="/img/3.svg"
-              class="card-img-top rotateKanan"
+              class="card-img-top rotateHakim"
               alt="penghuni 2CA"
             />
             <div class="card-body">
@@ -903,7 +903,9 @@
       const tooltipTriggerList = document.querySelectorAll(
         '[data-bs-toggle="tooltip"]'
       );
-      tooltipTriggerList.forEach((el) => new bootstrap.Tooltip(el));
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
     </script>
 
     <!-- SCRIPT POPOVER -->
