@@ -61,6 +61,24 @@ h2,
 .teksHakim {
   transform: rotate(180deg);
 }
+
+.rotatezoom {
+  transition: transform 0.6s ease;
+}
+
+.rotatezoom:hover {
+  transform: scale(9.0);
+}
+
+.radenmuter{
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.radenmuter:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+}
 /* Sejahat itu ternyato kau diah 
     ok fine
 
