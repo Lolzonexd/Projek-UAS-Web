@@ -74,6 +74,16 @@ h2,
   }
 }
 
+.radenmuter{
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.radenmuter:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(720deg);
+}
+
 /* ALANGKE SARO STYLING TOOLTIP NI OEE */
 .tooltip.show {
   opacity: 1 !important;
