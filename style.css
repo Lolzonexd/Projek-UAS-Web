@@ -39,9 +39,13 @@ h2,
   border: 2px solid #a392ea;
 }
 
-#Contact img{
-	height: 200px;
-	width: 100%;
+#Contact img {
+  height: 200px;
+  width: 100%;
+}
+
+.jarakFotbar {
+  gap: 10px;
 }
 
 .rotateKanan {
@@ -84,7 +88,7 @@ h2,
   }
 }
 
-.radenmuter{
+.radenmuter {
   transition: width 2s, height 2s, transform 2s;
 }
 
