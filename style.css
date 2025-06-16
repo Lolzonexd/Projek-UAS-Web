@@ -39,6 +39,10 @@ h2,
   border: 2px solid #a392ea;
 }
 
+#Contact img{
+	height: 200px;
+	width: 100%;
+}
 .rotateKanan {
   transition: transform 0.6s ease;
 }
