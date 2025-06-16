@@ -12,6 +12,11 @@ h2,
   width: auto;
 }
 
+.fotbar {
+  height: 20%;
+  width: 340px;
+}
+
 .linkContact {
   color: #a392ea;
   text-decoration: none;
