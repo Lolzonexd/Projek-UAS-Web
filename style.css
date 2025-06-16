@@ -48,6 +48,7 @@ h2,
   gap: 10px;
 }
 
+/* MUTER AE SEMUA MUTER */
 .rotateKanan {
   transition: transform 0.6s ease;
 }
@@ -96,6 +97,14 @@ h2,
   width: 300px;
   height: 300px;
   transform: rotate(720deg);
+}
+
+.rotateHanif {
+  transition: transform 2s;
+}
+
+.rotateHanif:hover {
+  transform: rotate(720deg) scale(1.2);
 }
 
 /* ALANGKE SARO STYLING TOOLTIP NI OEE */
